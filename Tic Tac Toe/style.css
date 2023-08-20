@@ -1,0 +1,92 @@
+body {
+    box-sizing: border-box;
+    background-image: url("/assets/bg.jpeg");
+    color: #212121;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    user-select: none;
+}
+
+.container {
+    background-color: white;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    padding-bottom: 0;
+    border-radius: 15px;
+}
+
+.table {
+    /* border: 3px solid #212121; */
+    border: none;
+    /* width: 450px;
+    height: 450px; */
+    margin: 20px;
+}
+
+table tbody tr td {
+    /* border: 3px solid #212121; */
+    --bs-table-bg: white;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    overflow: hidden;
+    border: none;
+    font-size: 50px;
+}
+
+.one,
+.two,
+.four,
+.five,
+.three,
+.six {
+    border-bottom: 3px solid #212121;
+}
+
+.one,
+.two,
+.four,
+.five,
+.seven,
+.eight {
+    border-right: 3px solid #212121;
+}
+
+.disabled {
+    pointer-events: none;
+}
+
+.player {
+    width: 300px;
+    height: 80px;
+    font-size: 40px;
+    text-align: center;
+}
+
+.start {
+    margin-bottom: 30px;
+    width: 100px;
+    transition: all 0.2s ease-in;
+}
+
+
+/* .startTransition {
+    width: ;
+} */
+
+.attribution {
+    margin-top: 20px;
+    font-size: 11px;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.attribution a {
+    color: #000000;
+}
